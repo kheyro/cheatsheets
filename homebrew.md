@@ -1,7 +1,6 @@
----
-Title: Homebrew
+# HOMEBREW Cheat Sheet
+
 Last updated: 04/09/2018
----
 
 ### Commands
 
