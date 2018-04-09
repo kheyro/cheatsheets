@@ -15,8 +15,8 @@ Last updated: 04/09/2018
 | `npm uninstall <module_name>`             | Uninstall package                                                     |
 | `npm edit <module_name>`                  | Locally edit dependency                                               |
 | `npm config set editor "sublime"`         | Setup editor for `npm edit`                                           |
-| `npm test`                                | Run test suite, package.json: `"scripts" : {"test" : "node ..."}`     |                                           |
-| `npm outdated`                            | List outdated libraries     |                                           |
+| `npm test`                                | Run test suite, package.json: `"scripts" : {"test" : "node ..."}`     |
+| `npm outdated`                            | List outdated libraries                                               |
 
 ## Also see
 * https://www.npmjs.com/package/npm-check - better `npm outdated`
