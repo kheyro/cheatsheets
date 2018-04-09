@@ -1,4 +1,4 @@
-# HOMEBREW Cheat Sheet
+# NPM Cheat Sheet
 
 Last updated: 04/09/2018
 
