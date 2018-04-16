@@ -17,6 +17,7 @@ Last updated: 04/09/2018
 | `npm config set editor "sublime"`         | Setup editor for `npm edit`                                           |
 | `npm test`                                | Run test suite, package.json: `"scripts" : {"test" : "node ..."}`     |
 | `npm outdated`                            | List outdated libraries                                               |
+| `npm list -g --depth 0`                   | List of globally installed packages (--depth 0, don't show dependencies)                                               |
 
 ## Also see
 * https://www.npmjs.com/package/npm-check - better `npm outdated`
