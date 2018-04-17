@@ -1,6 +1,6 @@
 # NPM Cheat Sheet
 
-Last updated: 04/09/2018
+Last updated: 04/17/2018
 
 ### Commands
 
