@@ -6,7 +6,7 @@ Last updated: 04/09/2018
 
 | Command                                   | Description                                                           |
 | ---                                       | ---                                                                   |
-| `npm init`                                | Generate package.json                                                 |
+| `npm init`                                | Generate package.json (-y skip setup)                                 |
 | `npm config set init-author-name "Your name"`<br/>`npm config set init-author-email "your@email.com"`<br/>`npm config set init-license MIT`                                | To set default values for `npm init`                                                |
 | `npm config ls -l`                        | List all npm configuration flags                                      |
 | `npm docs <module-name>`                  | Display documentation of a given library                              |
