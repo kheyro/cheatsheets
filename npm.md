@@ -19,5 +19,24 @@ Last updated: 04/09/2018
 | `npm outdated`                            | List outdated libraries                                               |
 | `npm list -g --depth 0`                   | List of globally installed packages (--depth 0, don't show dependencies)                                               |
 
+
+### NPM Check Updates
+
+[npm-check-updates](https://www.npmjs.com/package/npm-check-updates) is a command-line tool that allows you to upgrade your package.json or bower.json dependencies to the latest versions, regardless of existing version constraints.
+
+| Command                                   | Description                                      |
+| ---                                       | ---                                              |
+| `npm install -g npm-check-updates`        | Install globally                                 |
+| `ncu`                                     | Check for updates in the current project folder  |
+| `ncu -g`                                  | Check global packages                            |
+| `ncu -u`                                  | Upgrade all packages                             |
+| `ncu <name>`                              | Shorthand for ncu -f mocha (or --filter), include only package names matching the given string, comma-delimited list, or regex   |
+
+
+
+
+
+
+
 ## Also see
 * https://www.npmjs.com/package/npm-check - better `npm outdated`
