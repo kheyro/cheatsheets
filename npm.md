@@ -21,6 +21,9 @@ Last updated: 04/17/2018
 | `npm list -g --depth 0`                   | List of globally installed packages (--depth 0, don't show dependencies)      |
 | `npm update <module-name>`                | Upgrade all packages or single package if <module-name> in current project    |
 | `npm update -g <module-name>`             | Upgrade all global packages or single package if <module-name>        |
+| `npm info <module-name>`                  | List extensive info of given <module-name>                            |
+| `npm info <module-name> peerDependencies` | List <module-name> peer dependencies                                  |
+| `npm info <module-name> dependencies`     | List <module-name> dependencies                                       |
 
 
 ### NPM Check Updates
