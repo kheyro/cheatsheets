@@ -26,6 +26,26 @@ Last updated: 04/17/2018
 | `npm info <module-name> dependencies`     | List <module-name> dependencies                                       |
 
 
+### Install modules specific peer dependencies
+
+Install specific version of peerdependencies for a module.
+
+```shell
+(
+  export PKG=<module-name>;
+  npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest"
+)
+```
+
+Can also use the module `install-peerdeps`, see [here](https://www.npmjs.com/package/install-peerdeps)
+
+```shell
+npm install -g install-peerdeps
+install-peerdeps <option> <module-name>
+```
+
+Or use `npx install-peerdeps <option> <module-name>`, ie. `npx install-peerdeps --dev eslint-config-airbnb`
+
 ### NPM Check Updates
 
 [npm-check-updates](https://www.npmjs.com/package/npm-check-updates) is a command-line tool that allows you to upgrade your package.json or bower.json dependencies to the latest versions, regardless of existing version constraints.
