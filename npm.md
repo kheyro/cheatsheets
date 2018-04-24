@@ -41,7 +41,8 @@ Can also use the module `install-peerdeps`, see [here](https://www.npmjs.com/pac
 
 ```shell
 npm install -g install-peerdeps
-install-peerdeps <option> <module-name>
+cd my-project-directory
+install-peerdeps <option> <package>[@<version>]
 ```
 
 Or use `npx install-peerdeps <option> <module-name>`, ie. `npx install-peerdeps --dev eslint-config-airbnb`
