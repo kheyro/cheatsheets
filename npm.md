@@ -1,6 +1,5 @@
 # NPM Cheat Sheet
 
-Last updated: 04/17/2018
 
 ### Commands
 
@@ -46,6 +45,7 @@ install-peerdeps <option> <package>[@<version>]
 ```
 
 Or use `npx install-peerdeps <option> <module-name>`, ie. `npx install-peerdeps --dev eslint-config-airbnb`
+
 
 ### NPM Check Updates
 

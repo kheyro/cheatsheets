@@ -1,6 +1,5 @@
 # HOMEBREW Cheat Sheet
 
-Last updated: 04/09/2018
 
 ### Commands
 
@@ -15,6 +14,7 @@ Last updated: 04/09/2018
 | ---                        | ---                         |
 | `brew list --versions git` | See what versions you have  |
 
+
 ### More package commands
 
 | Command                   | Description                 |
@@ -25,6 +25,7 @@ Last updated: 04/09/2018
 | `brew cat git`            | Print this formula          |
 | `brew home git`           | Open homepage               |
 
+
 ### Global commands
 
 | Command                   | Description               |
@@ -33,6 +34,7 @@ Last updated: 04/09/2018
 | `brew list`               | List installed            |
 | `brew outdated`           | What's due for upgrades?  |
 | `brew search`             | Search for package        |
+
 
 ## Also see
 
