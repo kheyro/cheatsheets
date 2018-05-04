@@ -14,6 +14,7 @@
 | `dropdb <database_name>`                                                              | Drop database           |
 | `createuser -U <user> --interactive`                                                  | Create PSQL user           |
 | ---                                                                                   | ---           |
+| `\conninfo`                                                                           | Display connection info (ie. port)           |
 | `\l`                                                                                  | List all databases           |
 | `\c`                                                                                  | Connect to specific database          |
 | `\dt`                                                                                 | Describe all tables          |
